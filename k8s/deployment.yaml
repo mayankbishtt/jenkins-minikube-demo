@@ -18,8 +18,16 @@ spec:
     spec:
       containers:
       - name: flask
-        image: flask-demo:version1
+        image: flask-demo:v2
         imagePullPolicy: Never
 
         ports:
         - containerPort: 5000
+
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
