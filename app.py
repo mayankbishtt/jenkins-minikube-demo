@@ -7,7 +7,7 @@ print("Application Started")
 @app.route("/")
 def home():
 
-    x = 10 / 0
+    x = 10
 
     return "Hello from Jenkins and Kubernetes"
 
