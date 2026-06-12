@@ -6,7 +6,9 @@ print("Application Started")
 
 @app.route("/")
 def home():
-    print("Request received")
+
+    x = 10 / 0
+
     return "Hello from Jenkins and Kubernetes"
 
 if __name__ == "__main__":
