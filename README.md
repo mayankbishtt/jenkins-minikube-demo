@@ -541,6 +541,8 @@ More? -t C:\Users\mayan\Desktop\jenkins-minikube-demo\jmeter\flask-load-test.jmx
 More? -l results.jtl
 
 used to create a jtl file locally and then push that file in github and then change the port according to your need evrytime you run a new build. this is done manually now.
+
+
 ---
 
 # 23. RUN JMETER MANUALLY
